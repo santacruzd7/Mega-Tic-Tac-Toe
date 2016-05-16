@@ -1,0 +1,6 @@
+So, in general the implementation I created for Mega Tic Tac Toe follows all the rules.
+Initial player is random (either X or O) and so it is the initial board in which you play (any of the 9 sub-boards).
+When you win a sub-board it becomes the mark of the winner and if you're sent to a won board, you need to play the next one (I made this simplification so far, but I will make it so that you can play any sub-board unnocupied!).
+I also need to do the situation in which a sub-board is tied, I just realized I didn't handled that case. I don't know if making it a wildcard (what if three wildcards in a row? :D) or just let it invalid (that's the current case!).
+If you have any doubts, let me know! ;)
+-David G.S.
